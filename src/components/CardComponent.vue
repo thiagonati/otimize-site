@@ -1,14 +1,15 @@
 <template>
-    <div class="w-full max-w-lg overflow-hidden bg-white rounded-lg shadow-lg">
-        <img :src="require(`../assets/images/${props.imageSrc}`)" alt="Mountain" class="object-cover w-full h-64">
+    <div class="w-full max-w-xl overflow-hidden rounded-lg shadow-lg bg-catalina-blue-950">
+        <img :src="require(`../assets/images/projects/${props.imageSrc}`)" alt="Mountain"
+            class="object-cover w-full h-64">
         <div class="p-6">
-            <h2 class="mb-2 text-2xl font-bold text-gray-800">{{ props.title }}</h2>
-            <p class="mb-4 leading-tight text-gray-700">{{ props.description }}</p>
+            <h2 class="mb-2 text-2xl font-bold text-gray-50">{{ props.title }}</h2>
+            <p class="mb-4 leading-tight text-gray-50">{{ props.description }}</p>
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <span class="font-semibold text-gray-800">{{ props.subDescription }}</span>
+                    <span class="font-semibold text-yellow-400">{{ props.subDescription }}</span>
                 </div>
-                <span class="text-gray-600">{{ props.timeAgo }}</span>
+                <span class="text-yellow-400">{{ props.timeAgo }}</span>
             </div>
         </div>
     </div>

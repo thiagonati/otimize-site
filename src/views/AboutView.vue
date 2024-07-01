@@ -1,104 +1,111 @@
 <template>
-  <div class="relative py-24 overflow-hidden bg-gray-900 isolate sm:py-32">
-    <img src="../assets/images/2149205475.jpg" alt=""
-      class="absolute inset-0 object-cover object-right w-full h-full -z-10 md:object-center brightness-50" />
-    <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-      aria-hidden="true">
-      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#ecff41] opacity-20"
-        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
+  <section class="relative z-0 mt-10 py-14 lg:py-24 bg-gray-50">
+    <div class="relative px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+      <h1
+        class="max-w-2xl mx-auto mb-5 text-4xl font-bold text-center text-catalina-blue-900 font-manrope md:text-5xl md:leading-normal">
+        Onde tem sol brilhando tem oportunidade para <span class="text-lightning-yellow-400">Otimizar! </span>
+      </h1>
+      <p class="max-w-sm mx-auto text-base font-normal leading-7 text-center text-gray-500 mb-9">Energia limpa e
+        eficiente para o Seu espaço</p>
+
     </div>
-    <div
-      class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
-      aria-hidden="true">
-      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#ecff41] opacity-20"
-        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
-    </div>
-    <div class="px-6 mx-auto max-w-7xl lg:px-8">
-      <div class="max-w-2xl mx-auto lg:mx-0">
-        <h2 class="text-4xl font-bold tracking-tight text-yellow-300 sm:text-6xl">Quem Somos</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-50">Fundada em [Ano de Fundação], nos destacamos no setor de
-          instalação de sistemas de energia, com especialização em energia solar, eólica e outras fontes renováveis.</p>
+  </section>
+
+  <section class="relative py-14 lg:py-24">
+    <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
+        <div class="img-box">
+          <img src="../assets/images/15555.jpg" alt="About Us tailwind page" class="rounded-lg max-lg:mx-auto">
+        </div>
+        <div class="lg:pl-[100px] flex items-center">
+          <div class="w-full data">
+            <h2
+              class="relative text-4xl font-bold text-catalina-blue-900 font-manrope lg:text-5xl mb-9 max-lg:text-center">
+              Sobre Nós </h2>
+            <p class="max-w-2xl mx-auto text-xl font-normal leading-8 text-gray-500 max-lg:text-center">
+              Uma empresa com mais de 200 projetos homologados na concessionária e com equipe desde 2017 atuando no
+              mercado. Estamos prontos para atendê-los com o melhor que a experiência tem a proporcionar
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="max-w-2xl mx-auto mt-10 lg:mx-0 lg:max-w-none">
+    </div>
+  </section>
+
+  <section class="relative py-14 lg:py-24">
+    <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
+
+        <div class="flex items-center lg:pr-24">
+          <div class="w-full data">
+            <h2 class="text-4xl font-bold text-catalina-blue-900 font-manrope lg:text-5xl mb-9 max-lg:text-center">
+              Área de Atuação
+            </h2>
+            <img src="../assets/images/mape.png" alt="About Us tailwind page" class="block mx-auto lg:hidden mb-9">
+            <p class="max-w-2xl mx-auto text-xl font-normal leading-8 text-gray-500 max-lg:text-center">
+              Atuamos em todo o estado de Pernambuco, região favorável para utilização de energia solar, por ter
+              radiação solar constante, baixa variação de incidência durante o ano e tem a grande disponibilidade
+              energética
+            </p>
+          </div>
+        </div>
+        <div class="img-box ">
+          <img src="../assets/images/mape.png" alt="About Us tailwind page" class="hidden lg:block ">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center text-catalina-blue-900 font-manrope mb-14">
+        Nossos resultados em números</h2>
+      <div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
         <div
-          class="grid grid-cols-1 text-base font-semibold leading-7 text-yellow-400 gap-x-8 gap-y-6 sm:grid-cols-2 md:flex lg:gap-x-10">
-          <a v-for="link in links" :key="link.name" :href="link.href">{{ link.name }} <span
-              aria-hidden="true">&rarr;</span></a>
+          class="w-full p-6 mx-auto bg-white shadow-md max-lg:max-w-2xl lg:mx-0 lg:w-1/3 rounded-2xl shadow-gray-100">
+          <div class="flex gap-5">
+            <div class="text-2xl font-bold text-lightning-yellow-400 font-manrope">
+              95%
+            </div>
+            <div class="flex-1">
+              <h4 class="mb-2 text-xl font-semibold text-catalina-blue-900">Resultado em Projetos</h4>
+              <p class="text-xs leading-5 text-gray-500">Projetos que podem chegar até 95% de economia em sua conta de
+                luz.</p>
+            </div>
+          </div>
         </div>
-        <dl class="grid grid-cols-1 gap-8 mt-16 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-          <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-50">{{ stat.name }}</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-yellow-300">{{ stat.value }}</dd>
+        <div
+          class="w-full p-6 mx-auto bg-white shadow-md max-lg:max-w-2xl lg:mx-0 lg:w-1/3 rounded-2xl shadow-gray-100">
+          <div class="flex gap-5">
+            <div class="text-2xl font-bold text-lightning-yellow-400 font-manrope">
+              175+
+            </div>
+            <div class="flex-1">
+              <h4 class="mb-2 text-xl font-semibold text-catalina-blue-900">Crescimento da empresa</h4>
+              <p class="text-xs leading-5 text-gray-500">Our very talented team members are the powerhouse
+                of pagedone and pillars of our success. </p>
+            </div>
           </div>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="px-4 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9">
-    <div class="flex flex-col justify-between gap-8 lg:flex-row">
-      <div class="flex flex-col justify-center w-full lg:w-5/12">
-        <h1 class="pb-4 text-3xl font-bold leading-9 text-gray-800 lg:text-4xl">About Us</h1>
-        <p class="text-base font-normal leading-6 text-gray-600">It is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the
-          first place we have granted to God, and by this our present charter confirmed for us and our heirs forever
-          that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we
-          will that it be thus observed; which is apparent from</p>
-      </div>
-      <div class="w-full lg:w-8/12">
-        <img class="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
-      </div>
-    </div>
-
-    <div class="flex flex-col justify-between gap-8 pt-12 lg:flex-row">
-      <div class="flex flex-col justify-center w-full lg:w-5/12">
-        <h1 class="pb-4 text-3xl font-bold leading-9 text-gray-800 lg:text-4xl">Our Story</h1>
-        <p class="text-base font-normal leading-6 text-gray-600">It is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the
-          first place we have granted to God, and by this our present charter confirmed for us and our heirs forever
-          that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we
-          will that it be thus observed; which is apparent from</p>
-      </div>
-      <div class="w-full lg:w-8/12 lg:pt-8">
-        <div class="grid grid-cols-1 rounded-md shadow-lg md:grid-cols-4 sm:grid-cols-2 lg:gap-4">
-          <div class="flex flex-col items-center justify-center p-4 pb-6">
-            <img class="hidden md:block" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png"
-              alt="Alexa featured Image" />
-            <img class="block md:hidden" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Image" />
-            <p class="mt-4 text-xl font-medium leading-5 text-gray-800">Alexa</p>
-          </div>
-          <div class="flex flex-col items-center justify-center p-4 pb-6">
-            <img class="hidden md:block" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Image" />
-            <img class="block md:hidden" src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png" alt="Olivia featured Image" />
-            <p class="mt-4 text-xl font-medium leading-5 text-gray-800">Olivia</p>
-          </div>
-          <div class="flex flex-col items-center justify-center p-4 pb-6">
-            <img class="hidden md:block" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Image" />
-            <img class="block md:hidden" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Image" />
-            <p class="mt-4 text-xl font-medium leading-5 text-gray-800">Liam</p>
-          </div>
-          <div class="flex flex-col items-center justify-center p-4 pb-6">
-            <img class="hidden md:block" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured image" />
-            <img class="block md:hidden" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured image" />
-            <p class="mt-4 text-xl font-medium leading-5 text-gray-800">Elijah</p>
+        </div>
+        <div
+          class="w-full p-6 mx-auto bg-white shadow-md max-lg:max-w-2xl lg:mx-0 lg:w-1/3 rounded-2xl shadow-gray-100">
+          <div class="flex gap-5">
+            <div class="text-2xl font-bold text-lightning-yellow-400 font-manrope">
+              100+
+            </div>
+            <div class="flex-1">
+              <h4 class="mb-2 text-xl font-semibold text-catalina-blue-900">Projetos concluídos</h4>
+              <p class="text-xs leading-5 text-gray-500">Realizamos mais de 100 projetos concluídos e ainda contamos com
+                muitos
+                mais.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
-const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-]
-const stats = [
-  { name: 'Projetos', value: '120+' },
-  { name: 'Técnicos', value: '50+' },
-  { name: 'Anos', value: '10' },
-  { name: 'Fornecedores', value: '200' },
-]
+
 </script>
